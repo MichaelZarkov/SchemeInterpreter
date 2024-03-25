@@ -1,0 +1,40 @@
+Test suite SchemeInterpreter-test: RUNNING...
+
+eval
+  evaluates a number to a number in empty environment [v]
+    +++ OK, passed 100 tests.
+  +
+    correctly add two numbers [v]
+      +++ OK, passed 100 tests.
+  -
+    correctly subtracts two numbers [v]
+      +++ OK, passed 100 tests.
+  *
+    correctly multiplies two numbers [v]
+      +++ OK, passed 100 tests.
+  /
+    correctly divides two numbers [v]
+      +++ OK, passed 100 tests.
+  =
+    works correctly on numbers [v]
+      +++ OK, passed 100 tests.
+  >
+    works correctly on numbers [v]
+      +++ OK, passed 100 tests.
+  cons
+    works on example-1 [v]
+    works on example-2 [v]
+parseExps
+  correct Scheme input
+    works on the empty string [v]
+    works on an example with a single identifier [v]
+    works on example-1 with a single list of identifiers [v]
+    works on example-2 with a single list of identifiers [v]
+    works on example-3 with a single list of identifiers [v]
+    works on an example with a deep list [v]
+    works on an example with multiple Scheme expressions [v]
+
+Finished in 0.0155 seconds
+16 examples, 0 failures
+Test suite SchemeInterpreter-test: PASS
+Test suite logged to: C:\Users\Michael\source\repos\SchemeInterpreter\dist-newstyle\build\x86_64-windows\ghc-9.4.7\SchemeInterpreter-0.1.0.0\t\SchemeInterpreter-test\test\SchemeInterpreter-0.1.0.0-SchemeInterpreter-test.log
