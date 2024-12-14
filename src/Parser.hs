@@ -14,19 +14,6 @@ import Control.Applicative
     Applicative (liftA2),
   )
 
--- agenda:
--- 0. reminder of what we did last time - look at the combinators and show them briefly again
--- 1. newtype -- ask if fine with records?
--- 2. lettertype example + optional as example motivators for fmap? -- add Functor
--- 3. add Functor, add Applicative
--- 4. add Monad, show do desugaring
--- 5. mention how we get some free stuff - many and some are important, when, guard, sequence, traverse?
--- 6. write simple stack calculator parser to show how we use a parser
---    add
---    mult
---    incr
---    push
--- 7. json?
 
 newtype Parser a = MkParser {runParser :: String -> [(String, a)]}
 
